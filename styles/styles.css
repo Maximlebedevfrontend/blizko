@@ -1,0 +1,661 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-bottom: 12px;
+}
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0 !important;
+    outline-color: transparent !important;
+    outline-width: 0 !important;
+    outline-style: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+.nav-item {
+    font-size: 14px;
+    display: initial;
+
+    color: black;
+}
+
+.orange-link {
+
+    color: black;
+}
+
+.h2_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    padding-top: 95px;
+    max-width: 90%;
+}
+
+.list-unstyled {
+    height: 95px;
+}
+
+.offer-title {
+    margin-top: 15px
+}
+
+.tarifs {
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.packets {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.packet {
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.packet-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #0067ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.packet-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 15px;
+}
+
+.packet-text {
+    font-size: 20px;
+    max-width: 75%;
+}
+.packet-text div {
+    margin-bottom: 25px;
+}
+.packet-price {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.btn-more {
+    color: #ff8e0d;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.btn-more button {
+    border: 0;
+    border-bottom: 1px solid #ff8e0d;
+    background-color: transparent;
+    color: #ff8e0d;
+    cursor: pointer;
+}
+.feedback-block{
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-bottom: 30px;
+}
+.feedback-block:first-child{
+    margin-right: 5px;
+}
+
+.row {
+    padding-top: 150px;
+}
+
+.row:first-child {
+    padding-top: 50px;
+}
+
+.cards {
+    justify-content: center;
+    width: 1400px;
+}
+
+.main-cards {
+    width: 1400px;
+}
+
+.card-title {
+    color: #25258c;
+}
+
+.cards-title {
+    color: #c28108;
+}
+
+.card {
+    text-align: left;
+}
+
+li {
+    color: #FF6600;
+}
+
+li p {
+    color: black;
+}
+.section_padding {
+    padding-top: 95px;
+    padding-bottom: 30px;
+}
+
+.choice-title {
+    text-align: center;
+}
+.header-logo__slogan {
+    font-size: 14px;
+    line-height: 16px;
+    color: #373737;
+    margin-top: 5px;
+}
+
+.icons_footer {
+    display: inline-block;
+    margin: auto 8px auto 0px;
+    padding-bottom: 10px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    padding-top: 12px;
+    background: #f2f2f2;
+}
+
+.container-fluid {
+    max-width: 1400px;
+}
+.img-fluid {
+    width: 100%;
+    /*height: auto;*/
+}
+
+.footer {
+    background: #f2f2f2;
+    padding: 60px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.footer-title {
+    color: #232323;
+}
+
+.footer-content__list {
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+}
+
+.cont-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-content__list-item a {
+    color: #505050;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.footer-content__list-item {
+    transition: all 0.5s;
+}
+
+.footer-content__list-item:hover {
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+.footer-icon {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.icon {
+    transition: all 0.5s;
+}
+
+.icon:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.footer-logo__slogan {
+    color: #939393;
+    font-size: 14px;
+}
+
+.footer-title {
+    font-size: 14px;
+}
+
+.footer-content__list-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-btn {
+    display: block;
+    font-size: 14px;
+    color: #ffffff !important;
+    transition: all 0.5s;
+    background: #08c;
+    margin-bottom: 15px;
+    width: 170px;
+}
+
+.footer-btn:hover {
+    background: rgb(8, 126, 185);
+    transition: all 0.5s;
+}
+
+.nav-phone {
+    color: #373737;
+    transition: all 0.5s;
+}
+
+.nav-phone:hover {
+    color: #373737;
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+
+.icon-header {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-toggler {
+    color: #ff6600 !important;
+    font-size: 50px;
+    border: none;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 12px;
+    transition: opacity 0.5s;
+}
+
+
+.nav-link {
+    display: block;
+    color: black;
+    font-size: 17px;
+
+}
+
+.btn-cnvrst {
+    border: 0;
+    background-color: #2879ef;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.nav-link:focus,
+.nav-link:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .nav-link {
+        font-size: 15px;
+    }
+    .btn-mobile {
+        font-size: 12px;
+        background: none;
+        border: 1px solid #ff6600;
+        color: #373737 !important;
+        margin-bottom: 0;
+        font-weight: 500;
+        line-height: 1.2;
+        padding: 5px 20px;
+        border-radius: 4px;
+    }
+
+    .btn-mobile:hover {
+        background: none;
+        color: #373737 !important;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .h1,
+    h1 {
+        padding-top: 60px;
+        padding-left: 57px;
+    }
+
+    .offer__text {
+        line-height: 30px;
+        margin-top: 55px;
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    .table-btn {
+        width: 300px;
+    }
+
+    .h2,
+    h2 {
+        font-size: 28px;
+        line-height: 30px;
+
+    }
+
+    .h4,
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #373737;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-btn {
+        margin: 0px 0 15px 0;
+        width: 190px;
+    }
+
+    .icon-header {
+        margin-left: 0;
+    }
+
+    .blue {
+        margin-bottom: 10px;
+    }
+
+    .table-btn {
+        width: 300px;
+    }
+
+
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+
+    .offer__text {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+
+    .tarifs {
+        font-size: 30px;
+    }
+
+    h1 {
+        width: 300px;
+        padding-left: 20px;
+        padding-top: 65px;
+        font-size: 25px;
+    }
+
+    .h2,
+    h2 {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+
+    .packet {
+        width: 100%;
+    }
+
+    .packet-title {
+        font-size: 25px;
+    }
+
+    .packet-text {
+        font-size: 16px;
+        max-width: 75%;
+    }
+    .packet-price {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    .sell-btn {
+        width: 100%;
+    }
+
+    .logo {
+        max-width: 110px;
+        margin-top: 4px;
+    }
+
+
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .card-title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .offer {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .section_padding {
+        padding-top: 15px;
+
+    }
+
+    .section_padding {
+        padding-bottom: 15px;
+    }
+
+    .section_margin {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    .footer {
+        padding: 15px 0 15px 0;
+    }
+
+    .customers {
+        padding-bottom: 0;
+    }
+
+    .accordion {
+        margin-bottom: 15px;
+    }
+
+    ._orientationRight_f881 .button_c586 {
+        margin-bottom: 55px !important;
+    }
+
+    .conversion {
+        padding: 30px 5px;
+    }
+
+    .navbar-toggler {
+        /*padding: 5px;*/
+        /*width: 100%;*/
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .btn-mobile {
+        padding: 5px 5px;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+    .lala{
+        font-size: 10px;
+    }
+}
+
+.blue-ul {
+    color: #08c;
+    margin-block-start: 0em;
+    padding-inline-start: 20px;
+}
+
+
+.marquiz__button {
+    border: none;
+    border-radius: 0.15em;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 15px;
+    background-color: #0088cc;
+    box-shadow: none;
+    line-height: 1.5;
+}
+
+.marquiz__button:hover {
+    background: rgb(8, 126, 185);
+    transition: all 0.5s;
+}
+@media all and (max-width: 510px) {
+
+    .packet-title {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .packet-description {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .packet-text {
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .packet-text div {
+        margin-bottom: 15px;
+    }
+    .packet-price {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .btn-more {
+        color: #ff8e0d;
+        font-size: 18px;
+        padding: 15px;
+    }
+}
+@media all and (max-width: 427px) {
+
+    .h2,
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .h4,
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #373737;
+    }
+
+    .form-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .table-btn {
+        font-size: 16px;
+    }
+
+    .offer-btn {
+        width: 310px;
+        font-size: 16px;
+    }
+
+    .table-btn {
+        width: 100%;
+    }
+}
